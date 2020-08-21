@@ -6,6 +6,5 @@ echo "External Reference: ".$_GET["external_reference"];
 echo "<br/>";
 echo "Preference ID: ".$_GET["preference_id"];
 echo "<br/>";
-echo "Payment Method ID: ".$_GET["payment_method_id"];
+echo "Payment Method ID: ".$_GET["payment_type"];
 
-?>
