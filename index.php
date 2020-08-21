@@ -1,4 +1,8 @@
-<!DOCTYPE html>
+<?php
+require_once 'vendor/autoload.php';
+MercadoPago\SDK::setAccessToken("APP_USR-6317427424180639-042414-47e969706991d3a442922b0702a0da44-469485398"); 
+MercadoPago\SDK::setIntegratorId("dev_24c65fb163bf11ea96500242ac130004");
+?><!DOCTYPE html>
 <html class="supports-animation supports-columns svg no-touch no-ie no-oldie no-ios supports-backdrop-filter as-mouseuser" lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
     <meta name="viewport" content="width=1024">
@@ -11,6 +15,8 @@
     src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
     crossorigin="anonymous"></script>
+
+    <script src="https://www.mercadopago.com/v2/security.js" view="home"></script>
 
     <link rel="stylesheet" href="./assets/category-landing.css" media="screen, print">
 
@@ -232,7 +238,7 @@
                                             </ul>
 
                                             <div class="as-isdesktop with-paddlenav with-paddlenav-onhover">
-                                                <div class="clearfix image-list xs-no-js as-util-relatedlink relatedlink" data-relatedlink="2|Beats Studio3 Wireless Over‑Ear Headphones - Shadow Gray|MQUF2">
+                                                <div class="clearfix image-list xs-no-js as-util-relatedlink relatedlink" data-relatedlink="2|Beats Studio3 Wireless Over‑Ear Headphones - Shadow Gray|MQUF2">
                                                     <div class="as-tilegallery-element as-image-selected">
                                                         <div class=""></div>
                                                         <img src="./assets/samsung-galaxy-s9-xxl.jpg" class="ir ir item-image as-producttile-image" alt="" data-desc="Samsung galaxy" style="content:-webkit-image-set(url(https://md6.pricebaba.com/images/product/mobile/46638/samsung-galaxy-s9-xxl.jpg">
@@ -389,10 +395,10 @@
                                            
 
                                             <div class="as-isdesktop with-paddlenav with-paddlenav-onhover">
-                                                <div class="clearfix image-list xs-no-js as-util-relatedlink relatedlink" data-relatedlink="4|BeatsX Earphones - Matte Silver|MR3J2">
+                                                <div class="clearfix image-list xs-no-js as-util-relatedlink relatedlink" data-relatedlink="4|BeatsX Earphones - Matte Silver|MR3J2">
                                                     <div class="as-tilegallery-element as-image-selected">
                                                         <div class=""></div>
-                                                        <img src="./assets/motorola-moto-g5-plus-1.jpg" class="ir ir item-image as-producttile-image" alt="" width="445" height="445" data-desc="BeatsX Earphones - Matte Silver - Image 1 " style="content:-webkit-image-set(url(https://cdn2.gsmarena.com/vv/pics/motorola/motorola-moto-g5-plus-1.jpg) 1x);">
+                                                        <img src="./assets/motorola-moto-g5-plus-1.jpg" class="ir ir item-image as-producttile-image" alt="" width="445" height="445" data-desc="BeatsX Earphones - Matte Silver - Image 1 " style="content:-webkit-image-set(url(https://cdn2.gsmarena.com/vv/pics/motorola/motorola-moto-g5-plus-1.jpg) 1x);">
                                                     </div>
                                                     
                                                 </div>
@@ -402,7 +408,7 @@
                                             <div class="as-isipad" aria-hidden="true">
                                                 <ul class="clearfix">
                                                     <li class="as-searchtile-mobile">
-                                                        <img src="./assets/MR3J2" class="ir as-util-relatedlink item-image as-producttile-image relatedlink" alt="" width="445" height="445" data-scale-params-2="wid=890&amp;hei=890&amp;fmt=jpeg&amp;qlt=95&amp;op_usm=0.5,0.5&amp;.v=1504037421108" data-relatedlink="4|BeatsX Earphones - Matte Silver|MR3J2">
+                                                        <img src="./assets/MR3J2" class="ir as-util-relatedlink item-image as-producttile-image relatedlink" alt="" width="445" height="445" data-scale-params-2="wid=890&amp;hei=890&amp;fmt=jpeg&amp;qlt=95&amp;op_usm=0.5,0.5&amp;.v=1504037421108" data-relatedlink="4|BeatsX Earphones - Matte Silver|MR3J2">
                                                     </li>
                                                 </ul>
                                             </div>
