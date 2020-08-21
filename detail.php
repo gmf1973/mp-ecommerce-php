@@ -44,7 +44,7 @@ $preference->payment_methods = array(
   );
 
 $preference->notification_url = "https://ramirosanchezl-mp-commerce-php.herokuapp.com/webhook.php";
-$preference->external_reference = "ramirosanchezlopez23@gmail.com";
+$preference->external_reference = "test_user_63274575@testuser.com";
 $preference->back_urls = array(
     "success" => "https://ramirosanchezl-mp-commerce-php.herokuapp.com/success.php",
     "failure" => "https://ramirosanchezl-mp-commerce-php.herokuapp.com/failure.php",
@@ -188,7 +188,7 @@ $preference->save();
                                             <?php echo "$" . $_POST['unit'] ?>
                                         </h3>
                                     </div>
-                                    <a href="<?php echo $preference->init_point; ?>">Pagar</a>
+                                    <button type="submit" class="mercadopago-button" formmethod="post">Pagar</button>
 
                                 </div>
                             </div>
