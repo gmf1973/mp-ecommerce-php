@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "80918a3e123612f71126d4807b965fe0",
+    "content-hash": "2f747570c8528b631080de4f800abc34",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -770,16 +770,16 @@
         },
         {
             "name": "mercadopago/dx-php",
-            "version": "2.0.0",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mercadopago/dx-php.git",
-                "reference": "83d9d35a002376b0a825967b96c20151bf49c061"
+                "reference": "0428df445eff7f2722228176a756cef418baa48c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mercadopago/dx-php/zipball/83d9d35a002376b0a825967b96c20151bf49c061",
-                "reference": "83d9d35a002376b0a825967b96c20151bf49c061",
+                "url": "https://api.github.com/repos/mercadopago/dx-php/zipball/0428df445eff7f2722228176a756cef418baa48c",
+                "reference": "0428df445eff7f2722228176a756cef418baa48c",
                 "shasum": ""
             },
             "require": {
@@ -789,6 +789,7 @@
             },
             "require-dev": {
                 "doctrine/orm": "~2.3",
+                "phpdocumentor/phpdocumentor": "^2.0",
                 "phpmd/phpmd": "@stable",
                 "phpunit/phpunit": "^5",
                 "sebastian/phpcpd": "*",
@@ -824,8 +825,9 @@
                     "role": "Developer"
                 }
             ],
+            "description": "Mercado Pago PHP SDK",
             "homepage": "https://github.com/mercadopago/dx-php",
-            "time": "2020-04-06T17:33:16+00:00"
+            "time": "2020-07-01T19:48:00+00:00"
         }
     ],
     "packages-dev": [],
