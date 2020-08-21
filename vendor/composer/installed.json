@@ -781,8 +781,8 @@
     },
     {
         "name": "mercadopago/dx-php",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
+        "version": "2.1.0",
+        "version_normalized": "2.1.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/mercadopago/dx-php.git",
