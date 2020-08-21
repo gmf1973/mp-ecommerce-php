@@ -5,8 +5,8 @@ MercadoPago\SDK::setAccessToken("APP_USR-6317427424180639-042414-47e969706991d3a
 MercadoPago\SDK::setIntegratorId("dev_24c65fb163bf11ea96500242ac130004");
 
 $payer = new MercadoPago\Payer();
-$payer->name = "JHON";
-$payer->surname = "DOE";
+$payer->name = "Lalo";
+$payer->surname = "Landa";
 $payer->email = "test_user_63274575@testuser.com";
 $payer->phone = array(
   "area_code" => "11",
