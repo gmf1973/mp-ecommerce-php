@@ -4,7 +4,8 @@
   <meta charset="utf-8">
   <title>¡Falló el pago!</title>
 </head>
+
 <body>
-  <h1>¡falló el pago!</h1>
+  <h1>¡Falló el pago!</h1>
 </body>
 </html>

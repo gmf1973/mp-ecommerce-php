@@ -5,8 +5,8 @@ MercadoPago\SDK::setAccessToken("APP_USR-6317427424180639-042414-47e969706991d3a
 MercadoPago\SDK::setIntegratorId("dev_24c65fb163bf11ea96500242ac130004");
 
 $payer = new MercadoPago\Payer();
-$payer->name = "Lalo";
-$payer->surname = "Landa";
+$payer->name = "JHON";
+$payer->surname = "DOE";
 $payer->email = "test_user_63274575@testuser.com";
 $payer->phone = array(
   "area_code" => "11",
@@ -44,7 +44,7 @@ $preference->payment_methods = array(
   );
 
 $preference->notification_url = "https://ramirosanchezl-mp-commerce-php.herokuapp.com/webhook.php";
-$preference->external_reference = "sanchezlramiro@gmail.com";
+$preference->external_reference = "ramirosanchezlopez23@gmail.com";
 $preference->back_urls = array(
     "success" => "https://ramirosanchezl-mp-commerce-php.herokuapp.com/success.php",
     "failure" => "https://ramirosanchezl-mp-commerce-php.herokuapp.com/failure.php",
@@ -188,8 +188,7 @@ $preference->save();
                                             <?php echo "$" . $_POST['unit'] ?>
                                         </h3>
                                     </div>
-                                    <!-- <button type="submit" class="mercadopago-button" formmethod="post">Pagar</button> -->
-                                    <a href="<?php echo $preference->init_point; ?>">Pagar la compra</a>
+                                    <a href="<?php echo $preference->init_point; ?>">Pagar</a>
 
                                 </div>
                             </div>
