@@ -44,7 +44,7 @@ $preference->payment_methods = array(
   );
 
 $preference->notification_url = "https://ramirosanchezl-mp-commerce-php.herokuapp.com/webhook.php";
-$preference->external_reference = "test_user_63274575@testuser.com";
+$preference->external_reference = "sanchezlramiro@gmail.com";
 $preference->back_urls = array(
     "success" => "https://ramirosanchezl-mp-commerce-php.herokuapp.com/success.php",
     "failure" => "https://ramirosanchezl-mp-commerce-php.herokuapp.com/failure.php",
