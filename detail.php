@@ -26,7 +26,7 @@ $preference = new MercadoPago\Preference();
 $item = new MercadoPago\Item();
 $item->id = "1234";
 $item->description = "Dispositivo móvil de Tienda e-commerce";
-$item->picture_url = "https://gerardofabiano-mp-commerce-php.herokuapp.com/assets/003.jpg";
+$item->picture_url = "https://gmf1973-mp-ecommerce-php.herokuapp.com/assets/003.jpg";
 $item->title = $_POST['title'];
 $item->quantity = $_POST['unit'];
 $item->unit_price = $_POST['price'];
@@ -43,12 +43,12 @@ $preference->payment_methods = array(
     "installments" => 6
   );
 
-$preference->notification_url = "https://gerardofabiano-mp-commerce-php.herokuapp.com/webhook.php";
-$preference->external_reference = "gerardofabianox@gmail.com";
+$preference->notification_url = "https://gmf1973-mp-ecommerce-php.herokuapp.com/webhook.php";
+$preference->external_reference = "multipedidosweb@gmail.com";
 $preference->back_urls = array(
-    "success" => "https://gerardofabiano-mp-commerce-php.herokuapp.com/success.php",
-    "failure" => "https://gerardofabiano-mp-commerce-php.herokuapp.com/failure.php",
-    "pending" => "https://gerardofabiano-mp-commerce-php.herokuapp.com/pending.php"
+    "success" => "https://gmf1973-mp-ecommerce-php.herokuapp.com/success.php",
+    "failure" => "https://gmf1973-mp-ecommerce-php.herokuapp.com/failure.php",
+    "pending" => "https://gmf1973-mp-ecommerce-php.herokuapp.com/pending.php"
 );
 $preference->auto_return = "approved";
 $preference->save();
